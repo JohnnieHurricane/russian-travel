@@ -1,0 +1,8 @@
+.intro__list {
+    width: 690px;
+    height: 90px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+/* or 150% */
+}

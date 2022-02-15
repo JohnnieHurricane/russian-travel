@@ -1,0 +1,7 @@
+.intro {
+    width: 690px;
+    min-height: 429px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 148px;
+}
