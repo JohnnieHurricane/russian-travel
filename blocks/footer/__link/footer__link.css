@@ -1,0 +1,16 @@
+.footer__link {
+    text-decoration: none;
+    width: 50px;
+    height: 18px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+/* identical to box height, or 112% */
+    color: #FFFFFF;
+}
+
+.footer__link:hover, .footer__link:focus, .footer__link:active {
+    cursor: pointer;
+    opacity: .75;
+}
