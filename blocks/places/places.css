@@ -2,4 +2,24 @@
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    padding: 92px 0 0 0;
+}
+
+@media screen and (max-width: 1023px) {
+    .places {
+        width: 928px;
+        padding-top: 363px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .places {
+        width: 720px;
+        height: 2808px;
+        padding-top: 88px;
+    }
+
+    .places div:first-child {
+        margin-bottom: 72px;
+    }
 }

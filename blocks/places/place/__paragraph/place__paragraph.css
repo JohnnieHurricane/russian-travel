@@ -1,9 +1,31 @@
 .place__paragraph {
     width: 484px;
-    height: 145px;
-    font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 163%;
-/* or 29px */
+    line-height: 1.63;
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+    align-self: flex-start;
+}
+
+.place__paragraph:first-child {
+    margin-bottom: 27px;
+}
+
+@media screen and (max-width: 1023px) {
+    .place__paragraph {
+        width: 456px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place__paragraph {
+        width: 352px;
+        font-size: 16px;
+    }
+
+    .place__paragraph:first-child {
+        margin-bottom: 25px;
+    }
 }

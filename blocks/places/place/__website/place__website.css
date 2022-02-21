@@ -5,3 +5,10 @@
     align-self: flex-end;
     grid-area: place-website;
 }
+
+@media screen and (max-width: 767px) {
+    .place__website {
+        width: 352px;
+        height: 46px;
+    }
+}

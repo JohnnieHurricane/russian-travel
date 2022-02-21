@@ -5,6 +5,28 @@
     grid-template-columns: repeat(4, 284px);
     grid-template-rows: repeat(3, 213px);
     margin: 0;
-    padding: 92px 48px;
     gap: 16px;
+}
+
+@media screen and (max-width: 1023px) {
+    .photo-grid {
+        width: 928px;
+        grid-template-columns: repeat(3, 300px);
+        grid-template-rows: repeat(4, 225px);
+        gap: 14px;
+        padding: 0;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .photo-grid {
+        width: 720px;
+        height: 1664px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        gap: 16px;
+        padding-top: 88px;
+        margin: 0 auto;
+    }
 }

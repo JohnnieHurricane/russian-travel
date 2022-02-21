@@ -7,6 +7,14 @@
     grid-template-areas:
     "place-title place-website"
     "place-image place-text";
-    grid-column-gap: 40px;
+    grid-column-gap: 30px;
+}
 
+@media screen and (max-width: 767px) {
+    .place {
+      width: 720px;
+      height: 581px;
+      padding: 0;
+      margin-bottom: 73px;
+    }
 }

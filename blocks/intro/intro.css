@@ -3,5 +3,24 @@
     min-height: 429px;
     display: flex;
     flex-direction: column;
-    padding: 0 148px;
+    padding: 48px 100px 92px;
+}
+
+@media screen and (max-width: 1023px) {
+    .intro {
+        padding-left: 48px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .intro {
+        width: 720px;
+        padding: 46px 24px 0;
+    }
+}
+
+@media screen and (max-width: 319px) {
+    .intro {
+
+    }
 }

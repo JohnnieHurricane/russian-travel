@@ -3,11 +3,23 @@
     height: 14px;
     font-weight: normal;
     font-size: 10px;
-    line-height: 14px;
-/* identical to box height, or 140% */
-
+    line-height: 1.4;
     letter-spacing: 1.5px;
     text-transform: uppercase;
     align-self: flex-start;
     margin: 8px 0 0 0;
+}
+
+@media screen and (max-width: 1023px) {
+    .lead__caption {
+        padding-left: 24px;
+        margin-top: 7px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .lead__caption {
+        padding-left:  -158px;
+        margin-top: 7px;
+    }
 }

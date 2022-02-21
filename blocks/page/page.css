@@ -9,3 +9,21 @@
     margin: 0 auto;
     text-decoration: none;
     }
+
+@media screen and (max-width: 1023px) {
+    .page {
+        width: 1023px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .page {
+        width: 767px;
+    }
+}
+
+@media screen and (max-width: 319px) {
+    .page {
+        width: 319px;
+    }
+}
