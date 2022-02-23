@@ -4,9 +4,8 @@
     list-style: none;
     display: flex;
     flex-direction: row;
-    
 }
-  
+
 @media screen and (max-width: 767px) {
     .footer__links {
         width: 488px;

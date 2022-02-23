@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-between;
 }
-  
+
 @media screen and (max-width: 1023px) {
     .footer {
         width: 928px;
@@ -14,13 +14,13 @@
         padding: 104px 48px 24px;
     }
 }
-  
+
 @media screen and (max-width: 767px) {
     .footer {
-        width: 720px;      
+        width: 720px;
         height: 18px;
         padding: 88px 1px 24px;
-        margin:0 24px;
+        margin: 0 24px;
     }
 }
 
@@ -28,8 +28,8 @@
     .footer {
         width: 186px;
         height: 400px;
-        margin:0 24px;
-        flex-direction: column; 
-        padding: 0;       
+        margin: 0 24px;
+        flex-direction: column;
+        padding: 0;
     }
 }

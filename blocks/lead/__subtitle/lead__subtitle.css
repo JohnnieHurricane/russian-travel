@@ -2,14 +2,14 @@
     width: 640px;
     height: 72px;
     padding: 0;
-    margin: 32px 0 ;
+    margin: 32px 0;
     text-align: center;
     font-size: 30px;
     line-height: 36px;
     font-weight: normal;
 }
 
-@media screen and (max-width: 319px){
+@media screen and (max-width: 319px) {
     .lead__subtitle {
         width: 288px;
         height: 40px;
@@ -17,5 +17,4 @@
         line-height: 1.25;
         margin-top: 16px;
     }
-    
 }

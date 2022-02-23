@@ -1,45 +1,45 @@
 .cover__background {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    height: 740px;
-    text-decoration: none;
-    color: #FFFFFF;
-    background-size: cover;
-    background-image: url("/images/cover__background.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 740px;
+  text-decoration: none;
+  color: #ffffff;
+  background-size: cover;
+  background-image: url("/images/cover__background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.cover__background::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #2a2c2f;
+  opacity: 0.3;
+}
+
+.cover__background:hover::before {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1023px) {
+  .cover__background {
+      width: 1024px;
+      height: 640px;
   }
-  
-  .cover__background::before {
-    content: '';
-    position: absolute;
-    display: block;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: #2A2C2F;
-    opacity: 0.3;
-  }
-  
-  .cover__background:hover::before {
-    opacity: 0.8;
-  }
-  
-  @media screen and (max-width: 1023px) {
-    .cover__background {
-        width: 1024px;
-        height: 640px;
-    }
 }
 
 @media screen and (max-width: 767px) {
-    .cover__background {
-        width: 768px;
-        height: 480px;
-    }
+  .cover__background {
+      width: 768px;
+      height: 480px;
+  }
 }
 
 @media screen and (max-width: 319px) {
