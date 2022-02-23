@@ -27,14 +27,6 @@
     "place-image"
     "place-text";
     gap: 32px;
-    margin-bottom: 47px;
-  }
-  
-  .places div:first-child {
-    margin-bottom: 75px;
-  }
-
-  .place:last-of-type {
-    margin-bottom: 124px;
-  }
+    margin-bottom: 50px;
+  }  
 }

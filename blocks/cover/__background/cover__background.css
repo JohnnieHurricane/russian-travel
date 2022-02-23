@@ -41,3 +41,10 @@
         height: 480px;
     }
 }
+
+@media screen and (max-width: 319px) {
+  .cover__background {
+      width: 320px;
+      height: 200px;
+  }
+}
