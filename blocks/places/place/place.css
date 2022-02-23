@@ -13,8 +13,28 @@
 @media screen and (max-width: 767px) {
     .place {
       width: 720px;
-      height: 581px;
       padding: 0;
       margin-bottom: 73px;
     }
+}
+
+@media screen and (max-width: 319px) {
+  .place {
+    width: 320px;
+    grid-template-areas:
+    "place-title"
+    "place-website"
+    "place-image"
+    "place-text";
+    gap: 32px;
+    margin-bottom: 47px;
+  }
+  
+  .places div:first-child {
+    margin-bottom: 75px;
+  }
+
+  .place:last-of-type {
+    margin-bottom: 124px;
+  }
 }

@@ -23,3 +23,15 @@
         margin-bottom: 72px;
     }
 }
+
+@media screen and (max-width: 319px) {
+    .places {
+        width: 320px;
+        height: 5177px;
+        padding-top: 64px;
+    }
+
+    .places div:first-child {
+        margin-bottom: 72px;
+    }
+}

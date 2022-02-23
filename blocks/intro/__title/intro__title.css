@@ -8,3 +8,15 @@
     text-rendering: optimizeLegibility;
     font-family: Inter;
 }
+
+@media screen and (max-width: 319px) {
+    .intro__title {
+        width: 288px;
+        height: 70px;
+        font-style: normal;
+        font-size: 32px;
+        line-height: 1.09;
+        padding: 20px 0 0;
+        margin: 0;
+    }
+}
