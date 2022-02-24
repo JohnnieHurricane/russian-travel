@@ -10,7 +10,7 @@
   grid-column-gap: 30px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .place {
       width: 720px;
       padding: 0;
@@ -18,7 +18,7 @@
   }
 }
 
-@media screen and (max-width: 319px) {
+@media screen and (max-width: 424px) {
   .place {
       width: 320px;
       grid-template-areas:
