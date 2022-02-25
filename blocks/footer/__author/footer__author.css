@@ -16,10 +16,10 @@
     }
 }
 
-@media screen and (max-width: 424px) {
+@media screen and (max-width: 767px) {
     .footer__author {
         width: 186px;
         padding: 0;
-        margin-bottom: 24px;
+        margin: 16px 0 24px;
     }
 }

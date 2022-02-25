@@ -6,13 +6,13 @@
     flex-direction: row;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1023px) {
     .footer__links {
         width: 488px;
     }
 }
 
-@media screen and (max-width: 424px) {
+@media screen and (max-width: 767px) {
     .footer__links {
         width: 100%;
         flex-direction: column;

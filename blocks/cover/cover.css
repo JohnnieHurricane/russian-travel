@@ -15,13 +15,13 @@
         width: 768px;
         /*ха-ха, вот что такое костыль. не знаю как убрать
         у последнего параграфа нижний отступ*/
-        margin-top: 65px;
+        margin-top: 68px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .cover {
         width: 320px;
-        padding-top: 90px;
+        margin-top: 41px;
     }
 }

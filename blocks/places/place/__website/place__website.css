@@ -6,14 +6,15 @@
     grid-area: place-website;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1023px) {
     .place__website {
         width: 352px;
     }
 }
 
-@media screen and (max-width: 424px) {
+@media screen and (max-width: 767px) {
     .place__website {
-        padding-left: 16px;
+        width: 288px;
+        margin: 0 16px;
     }
 }
