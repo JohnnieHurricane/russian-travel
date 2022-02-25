@@ -5,25 +5,17 @@
     padding: 92px 0 0 0;
 }
 
-@media screen and (max-width: 1024px) {
-    .places {
-        width: 928px;
-        padding-top: 363px;
-    }
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .places {
         width: 720px;
-        height: 2808px;
         padding-top: 88px;
+        margin: 0;
     }
 }
 
 @media screen and (max-width: 424px) {
     .places {
         width: 320px;
-        height: 5177px;
         padding-top: 64px;
     }
 }

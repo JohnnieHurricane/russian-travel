@@ -2,25 +2,26 @@
    width: 984px;
    height: 615px;
    padding: 0;
-   margin: 32px 0 0 0;
+   margin: 32px 148px 0;
    display: flex;
    background-image: url(../../../images/kalegin-michail-179870-unsplash.png);
    background-repeat: no-repeat;
    background-size: contain;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
    .lead__image {
        width: 928px;
        height: 580px;
-       margin-top: 25px;
+       margin: 56px 0 0;
    }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
    .lead__image {
        width: 768px;
        height: 480px;
+       margin: 56px 0 0;
    }
 }
 

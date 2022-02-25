@@ -7,27 +7,17 @@
     justify-content: space-between;
 }
 
-@media screen and (max-width: 1024px) {
-    .footer {
-        width: 928px;
-        margin: 0;
-        padding: 104px 48px 24px;
-    }
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .footer {
         width: 720px;
-        height: 18px;
-        padding: 88px 1px 24px;
         margin: 0 24px;
+        padding: 88px 0 24px;
     }
 }
 
 @media screen and (max-width: 424px) {
     .footer {
         width: 186px;
-        height: 400px;
         margin: 0 24px;
         flex-direction: column;
         padding: 0;

@@ -11,9 +11,9 @@
     font-family: Inter;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .cover__title {
-        margin: 205px auto 0;
+        margin: 115px auto 0;
     }
 }
 
@@ -26,7 +26,6 @@
 @media screen and (max-width: 424px) {
     .cover__title {
         width: 288px;
-        height: 70px;
         font-size: 32px;
         line-height: 1.09;
         margin: 0 16px;
