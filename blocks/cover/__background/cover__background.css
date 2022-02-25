@@ -6,7 +6,7 @@
   text-decoration: none;
   color: #ffffff;
   background-size: cover;
-  background-image: './images/cover__background.png';
+  background-image: url(./images/cover__background.png);
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
