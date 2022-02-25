@@ -2,7 +2,7 @@
     grid-area: place-image;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .place__image {
         width: 340px;
     }
