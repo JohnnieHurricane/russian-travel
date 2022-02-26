@@ -37,8 +37,3 @@
 @import '../blocks/footer/__author/footer__author.css';
 @import '../blocks/footer/__link/footer__link.css';
 @import '../blocks/footer/__links/footer__links.css';
-
-body {
-    background-color: #2A2C2F;
-    font-style: normal;
-}
