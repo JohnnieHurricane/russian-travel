@@ -5,14 +5,14 @@
 
 @media screen and (max-width: 1279px) {
     .cover {
-        width: 1024px;
+        max-width: 1024px;
         margin: 0;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .cover {
-        width: 768px;
+        max-width: 768px;
         /*ха-ха, вот что такое костыль. не знаю как убрать
         у последнего параграфа нижний отступ*/
         margin-top: 68px;
@@ -21,7 +21,7 @@
 
 @media screen and (max-width: 767px) {
     .cover {
-        width: 320px;
+        max-width: 320px;
         margin-top: 41px;
     }
 }

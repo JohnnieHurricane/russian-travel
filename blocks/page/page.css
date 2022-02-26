@@ -1,5 +1,5 @@
 .page {
-    width: 1280px;
+    max-width: 1280px;
     display: block;
     background-color: #2a2c2f;
     color: white;
@@ -12,18 +12,18 @@
 
 @media screen and (max-width: 1023px) {
     .page {
-        width: 1023px;
+        max-width: 1023px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .page {
-        width: 767px;
+        max-width: 767px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .page {
-        width: 319px;
+        max-width: 319px;
     }
 }
