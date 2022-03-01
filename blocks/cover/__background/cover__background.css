@@ -10,6 +10,7 @@
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
+  box-sizing: border-box;
 }
 
 .cover__background::before {
