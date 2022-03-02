@@ -4,9 +4,6 @@
    padding: 0;
    margin: 32px 148px 0;
    display: flex;
-   background-image: url(../../../images/kalegin-michail-179870-unsplash.png);
-   background-repeat: no-repeat;
-   background-size: contain;
 }
 
 @media screen and (max-width: 1279px) {
