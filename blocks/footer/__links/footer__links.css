@@ -6,6 +6,10 @@
     flex-direction: row;
 }
 
+.footer__links li:last-of-type {
+    margin-right: 0;
+}
+
 @media screen and (max-width: 1023px) {
     .footer__links {
         width: 488px;
