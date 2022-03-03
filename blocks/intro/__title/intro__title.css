@@ -6,7 +6,8 @@
     margin: 0;
     padding: 44px 0 0 0;
     text-rendering: optimizeLegibility;
-    font-family: Inter, sans-serif;
+    font-family: Inter, sans-serif;    
+    font-style: normal;
 }
 
 @media screen and (max-width: 1279px) {
@@ -18,9 +19,7 @@
 @media screen and (max-width: 767px) {
     .intro__title {
         width: 288px;
-        font-style: normal;
         font-size: 32px;
         line-height: 1.09;
-        margin: 0;
     }
 }
