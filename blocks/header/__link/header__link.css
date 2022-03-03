@@ -1,6 +1,5 @@
-.header__lang-link {
-    width: 30px;
-    font-family: Inter;
+.header__link {
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -10,11 +9,16 @@
     margin: 0 0 0 18px;
     padding: 0;
     text-decoration: none;
+    opacity: 1;
+}
+
+    .header__link:hover {
+        opacity: .8;
+        transition: 1s, ease;
 }
 
 @media screen and (max-width: 767px) {
-    .header__lang-link {
-        width: 22px;
+    .header__link {
         font-size: 18px;
         line-height: 1.11;
         text-align: right;
