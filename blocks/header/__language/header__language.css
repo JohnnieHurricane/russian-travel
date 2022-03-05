@@ -11,5 +11,6 @@
 @media screen and (max-width: 767px) {
     .header__language {
         align-items: center;
+        padding-top: 12px;
     }
 }
