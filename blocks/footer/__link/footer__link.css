@@ -7,6 +7,8 @@
     font-family: Inter, sans-serif;
     margin: 0;
     padding: 0;
+    opacity: 1;
+    transition: 1s ease;
 }
 
 .footer__link:hover {
