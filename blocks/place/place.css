@@ -24,6 +24,10 @@
       margin: 0 auto;
       grid-column-gap: 28px;
   }
+
+  .place:first-child .place__title {
+    height: 92px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -37,5 +41,9 @@
       gap: 32px;
       margin: 0 0 50px;
       padding: 0;
+  }
+  
+  .place:first-child .place__title {
+    height: auto;
   }
 }
