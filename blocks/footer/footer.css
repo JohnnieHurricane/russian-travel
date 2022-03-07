@@ -3,8 +3,12 @@
     margin: 0 auto;
     padding-bottom: 24px;
     padding-top: 92px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 @media screen and (max-width: 1279px) {
@@ -23,7 +27,10 @@
 @media screen and (max-width: 767px) {
     .footer {
         max-width: 288px;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         padding: 64px 16px 0;
         margin: 0 auto;
     }
